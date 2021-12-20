@@ -3,7 +3,7 @@ import { Injectable, Redirect } from '@nestjs/common';
 @Injectable()
 export class AppService {
   home() {
-    return 'Welcome to Petra API, access the docs at /docs'
+    return 'Welcome to Petra API, access the docs at /docs';
   }
   docs() {
     return Redirect(
